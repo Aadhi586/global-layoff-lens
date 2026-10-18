@@ -1,0 +1,119 @@
+{
+  "generated_on": "2026-10-04",
+  "source": "Kaggle: swaptr/layoffs-2022",
+  "date_range": {
+    "start": "2020-03-11",
+    "end": "2026-09-23"
+  },
+  "before": {
+    "rows": 4615,
+    "columns": 11,
+    "missing_by_column": {
+      "company": 0,
+      "location": 1,
+      "total_laid_off": 1600,
+      "date": 0,
+      "percentage_laid_off": 1728,
+      "industry": 2,
+      "source": 3,
+      "stage": 8,
+      "funds_raised": 550,
+      "country": 2,
+      "date_added": 0
+    },
+    "duplicate_rows": 0,
+    "dtypes": {
+      "company": "object",
+      "location": "object",
+      "total_laid_off": "float64",
+      "date": "object",
+      "percentage_laid_off": "float64",
+      "industry": "object",
+      "source": "object",
+      "stage": "object",
+      "funds_raised": "float64",
+      "country": "object",
+      "date_added": "object"
+    }
+  },
+  "after": {
+    "rows": 4615,
+    "columns": 11,
+    "missing_by_column": {
+      "company": 0,
+      "location": 1,
+      "total_laid_off": 1600,
+      "date": 0,
+      "percentage_laid_off": 1728,
+      "industry": 2,
+      "source": 3,
+      "stage": 8,
+      "funds_raised": 550,
+      "country": 2,
+      "date_added": 0
+    },
+    "duplicate_rows": 0,
+    "dtypes": {
+      "company": "string",
+      "location": "string",
+      "total_laid_off": "float64",
+      "date": "datetime64[ns]",
+      "percentage_laid_off": "float64",
+      "industry": "string",
+      "source": "object",
+      "stage": "string",
+      "funds_raised": "float64",
+      "country": "string",
+      "date_added": "datetime64[ns]"
+    }
+  },
+  "removed_duplicates": 0,
+  "removed_missing_required": 0,
+  "invalid_values": {
+    "date": 0,
+    "date_added": 0,
+    "negative_numeric": 0,
+    "total_laid_off_non_numeric": 0,
+    "total_laid_off_negative": 0,
+    "percentage_laid_off_non_numeric": 0,
+    "percentage_laid_off_negative": 0,
+    "funds_raised_non_numeric": 0,
+    "funds_raised_negative": 0,
+    "percentage_laid_off_above_one": 0
+  },
+  "numeric_summary": {
+    "total_laid_off": {
+      "count": 3015,
+      "mean": 309.542951907131,
+      "std": 1111.3578318080445,
+      "min": 3.0,
+      "median": 90.0,
+      "q1": 40.0,
+      "q3": 200.0,
+      "max": 22000.0,
+      "outlier_count_iqr": 354
+    },
+    "percentage_laid_off": {
+      "count": 2887,
+      "mean": 0.29604693453411846,
+      "std": 0.30691641369141276,
+      "min": 0.0,
+      "median": 0.17,
+      "q1": 0.1,
+      "q3": 0.33,
+      "max": 1.0,
+      "outlier_count_iqr": 431
+    },
+    "funds_raised": {
+      "count": 4065,
+      "mean": 910.0932584255842,
+      "std": 4924.342090935698,
+      "min": 0.7,
+      "median": 176.0,
+      "q1": 55.0,
+      "q3": 485.0,
+      "max": 121900.0,
+      "outlier_count_iqr": 472
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "numeric": {
+    "total_laid_off": {
+      "count": 3015,
+      "mean": 309.542951907131,
+      "std": 1111.3578318080445,
+      "min": 3.0,
+      "median": 90.0,
+      "q1": 40.0,
+      "q3": 200.0,
+      "max": 22000.0,
+      "outlier_count_iqr": 354
+    },
+    "percentage_laid_off": {
+      "count": 2887,
+      "mean": 0.29604693453411846,
+      "std": 0.30691641369141276,
+      "min": 0.0,
+      "median": 0.17,
+      "q1": 0.1,
+      "q3": 0.33,
+      "max": 1.0,
+      "outlier_count_iqr": 431
+    },
+    "funds_raised": {
+      "count": 4065,
+      "mean": 910.0932584255842,
+      "std": 4924.342090935698,
+      "min": 0.7,
+      "median": 176.0,
+      "q1": 55.0,
+      "q3": 485.0,
+      "max": 121900.0,
+      "outlier_count_iqr": 472
+    }
+  },
+  "correlation": {
+    "total_laid_off": {
+      "total_laid_off": 1.0,
+      "percentage_laid_off": -0.0639,
+      "funds_raised": 0.124
+    },
+    "percentage_laid_off": {
+      "total_laid_off": -0.0639,
+      "percentage_laid_off": 1.0,
+      "funds_raised": -0.0874
+    },
+    "funds_raised": {
+      "total_laid_off": 0.124,
+      "percentage_laid_off": -0.0874,
+      "funds_raised": 1.0
+    }
+  },
+  "date_range": {
+    "start": "2020-03-11",
+    "end": "2026-09-23"
+  },
+  "categories": {
+    "company": {
+      "unique": 2984,
+      "top": {
+        "Amazon": 24,
+        "Google": 19,
+        "Microsoft": 18,
+        "Salesforce": 15,
+        "Intel": 13,
+        "Oracle": 12,
+        "Rivian": 12,
+        "Meta": 12,
+        "Expedia": 11,
+        "TikTok": 10,
+        "Uber": 9,
+        "Unity": 8,
+        "Shopify": 8,
+        "Spotify": 8,
+        "PayPal": 8
+      }
+    },
+    "industry": {
+      "unique": 30,
+      "top": {
+        "Finance": 549,
+        "Retail": 364,
+        "Healthcare": 336,
+        "Consumer": 318,
+        "Other": 316,
+        "Transportation": 277,
+        "Food": 257,
+        "Marketing": 223,
+        "Crypto": 181,
+        "Security": 169,
+        "Education": 167,
+        "Real Estate": 167,
+        "Media": 163,
+        "Data": 146,
+        "HR": 115
+      }
+    },
+    "country": {
+      "unique": 66,
+      "top": {
+        "United States": 2902,
+        "India": 351,
+        "Israel": 188,
+        "Canada": 183,
+        "United Kingdom": 160,
+        "Germany": 136,
+        "Brazil": 90,
+        "Australia": 88,
+        "Singapore": 59,
+        "Sweden": 46,
+        "Indonesia": 41,
+        "Nigeria": 39,
+        "Netherlands": 31,
+        "China": 31,
+        "France": 23
+      }
+    },
+    "stage": {
+      "unique": 16,
+      "top": {
+        "Post-IPO": 1120,
+        "Unknown": 776,
+        "Series B": 495,
+        "Series C": 456,
+        "Acquired": 419,
+        "Series D": 366,
+        "Series A": 276,
+        "Series E": 209,
+        "Seed": 159,
+        "Series F": 128,
+        "Private Equity": 86,
+        "Series H": 36,
+        "Subsidiary": 31,
+        "Series G": 29,
+        "Series J": 12
+      }
+    }
+  }
+}
